@@ -66,9 +66,7 @@ function findHighestPriorityJobIndex() {
 }
 
 // Update queue display
-let jobCounter = 0;
-let jobsCompleted = 0;
-let jobQueue = [];
+
 
 // Job class
 class Job {
@@ -268,4 +266,5 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     updateQueueUI();
+
 });
